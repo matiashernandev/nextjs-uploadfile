@@ -10,7 +10,7 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className="bg-orange-300">
       <form
         onSubmit={async (e) => {
           e.preventDefault()
